@@ -1,12 +1,13 @@
 /*###########################*/
 
-.fuhrpark_ffw_bamberg .nav-pills .nav-link.active,
-.fuhrpark_ffw_bamberg .nav-pills .show > .nav-link {
-  background-color: red !important;
-}
-
 .fuhrpark_ffw_bamberg .nav-link {
   color: red !important;
+}
+
+.fuhrpark_ffw_bamberg .nav-pills .nav-link.active,
+.fuhrpark_ffw_bamberg .nav-pills .show > .nav-link {
+  color: #fff !important;
+  background-color: red !important;
 }
 
 .fuhrpark_ffw_bamberg .nav-link:focus,
