@@ -17,11 +17,13 @@
 
 /*###########################*/
 
-.profile-card-4 .image-wrapper {
+.profile-card-4 .image-wrapper,
+.news-card-4 .image-wrapper {
   position: relative;
   padding-bottom: 100%;
 }
-.profile-card-4 .image-wrapper img {
+.profile-card-4 .image-wrapper img,
+.news-card-4 .image-wrapper img {
   position: absolute;
   object-fit: cover;
   width: 100%;
@@ -34,7 +36,8 @@ a:focus {
   color: inherit;
 }
 
-.profile-card-4 {
+.profile-card-4,
+.news-card-4 {
   max-width: 500px;
   background-color: #fff;
   border-radius: 5px;
@@ -45,17 +48,20 @@ a:focus {
   cursor: cell;
 }
 
-.profile-card-4 img {
+.profile-card-4 img,
+.news-card-4 img {
   transition: all 0.25s linear;
 }
 
-.profile-card-4 .profile-content {
+.profile-card-4 .profile-content,
+.news-card-4 .profile-content {
   position: relative;
   padding: 15px;
   background-color: #fff;
 }
 
-.profile-card-4 .profile-name {
+.profile-card-4 .profile-name,
+.news-card-4 .profile-name {
   font-weight: bold;
   position: absolute;
   left: 0px;
@@ -67,34 +73,40 @@ a:focus {
   text-shadow: 2px 2px 3px #000;
 }
 
-.profile-card-4 .profile-name p {
+.profile-card-4 .profile-name p,
+.news-card-4 .profile-name p {
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1.5px;
 }
 
-.profile-card-4 .profile-description {
+.profile-card-4 .profile-description,
+.news-card-4 .profile-description {
   color: #777;
   font-size: 14px;
   padding: 10px;
 }
 
-.profile-card-4 .profile-overview {
+.profile-card-4 .profile-overview,
+.news-card-4 .profile-overview {
   padding: 0px 0px;
 }
 
-.profile-card-4 .profile-overview p {
+.profile-card-4 .profile-overview p,
+.news-card-4 .profile-overview p {
   font-size: 12px;
   font-weight: 600;
   color: #777;
 }
 
-.profile-card-4 .profile-overview h4 {
+.profile-card-4 .profile-overview h4,
+.news-card-4 .profile-overview h4 {
   color: #273751;
   font-weight: bold;
 }
 
-.profile-card-4 .profile-content::before {
+.profile-card-4 .profile-content::before,
+.news-card-4 .profile-content::before {
   content: "";
   position: absolute;
   height: 25px;
@@ -106,7 +118,8 @@ a:focus {
   transform: skewY(3deg);
 }
 
-.profile-card-4:hover img {
+.profile-card-4:hover img,
+.news-card-4:hover img {
   transform: rotate(0deg) scale(1.01, 1.01);
   filter: brightness(100%);
 }
